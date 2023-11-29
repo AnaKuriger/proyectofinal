@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estformu.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="conteiner">
+    <h1>Registro</h1>
+    <p>El siguiente formulario es para registrarse a los recuperatorios, SOLO aquellos estudiantes que adeuden materias.:</p>
+    </div>
+    <section>
+        <form action="index.php" method="get">
+            <label for="id">ID:</label><br>
+            <input type="text" name="id" id="id" placeholder="1" ><br>
+            <br>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" name="fname" id="fname" placeholder="Ejemplo: Leonel" ><br>
+            <br>
+            <label for="apee">Apellido:</label><br>
+            <input type="text" id="apee" name="apee" placeholder="Ejemplo: Kuriger"><br>
+            <br>
+            <label for="dni">DNI:</label><br>
+            <input type="text" id="dni" name="dni"><br>
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <br>
+            <label for="numero">Celular:</label><br>
+            <input type="search" id="numero" name="numero" placeholder="codigo de área + número"><br>
+            <br>
+            <label for="ayd">Año y División</label><br>
+            <input type="search" id="ayd" name="ayd" placeholder="Ejemplo: 1A"><br>
+            <br>
+            <label for="materias">Materia a la que se inscribe.</label><br>
+            <input type="search" id="materias" name="materias" placeholder="Ejemplo: Programación"><br>
+            <br>
+
+            <input type="reset">
+            <br>
+            <input type="submit" name="registro">
+        </form>
+        <a href="borrar.html" tittle="Borrar registro">Borrar registro</a>
+    </section>
+    
+</body>
+</html>
+
